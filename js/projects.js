@@ -83,9 +83,40 @@ const proyectos = {
         }
       }
     },
-    
+
     {
       id: "casa5",
+      titulo: "CABAÑA TIPO A",
+      anio: "2025",
+      ubicacion: "BUCARAMANGA - SANTANDER, COLOMBIA",
+      descripcion: "Proyecto de diseño arquitectónico desarrollado para cabañas de alquiler Airbnb con vista al embalse de Topocoro, concebidas bajo un enfoque contemporáneo que busca fortalecer la conexión entre arquitectura, paisaje y experiencia del usuario. La propuesta integra espacios abiertos y visuales privilegiadas hacia el entorno natural, generando ambientes de descanso, confort y contemplación. El diseño incorpora balcones panorámicos y zonas exteriores con jacuzzi, planteados como elementos protagonistas para potenciar la experiencia de relajación y el disfrute del paisaje. A nivel material, se propuso la combinación de estructura metálica, cristal y madera, logrando una estética moderna y ligera que, a su vez, dialoga armónicamente con el contexto natural.",
+      subcategorias: {
+        interiores: {
+          imagenes: [
+            
+          ],
+          videos: [""]
+        },
+        exteriores: {
+          imagenes: [
+            "images/projects/exteriores/CA2.jpeg",
+            "images/projects/exteriores/CA1.png",
+          ],
+          videos: ["4h8Mpt9_Dxg"]
+        },
+        planos: {
+          imagenes: [
+            "images/projects/planos/CA1.png",
+            "images/projects/planos/CA2.png",
+            
+          ],
+          videos: [""]
+        }
+      }
+    },
+    
+    {
+      id: "casa7",
       titulo: "CABAÑA TIPO B",
       anio: "2025",
       ubicacion: "BUCARAMANGA - SANTANDER, COLOMBIA",
@@ -118,36 +149,7 @@ const proyectos = {
       }
     },
 
-    {
-      id: "casa5",
-      titulo: "CABAÑA TIPO A",
-      anio: "2025",
-      ubicacion: "BUCARAMANGA - SANTANDER, COLOMBIA",
-      descripcion: "Proyecto de diseño arquitectónico desarrollado para cabañas de alquiler Airbnb con vista al embalse de Topocoro, concebidas bajo un enfoque contemporáneo que busca fortalecer la conexión entre arquitectura, paisaje y experiencia del usuario. La propuesta integra espacios abiertos y visuales privilegiadas hacia el entorno natural, generando ambientes de descanso, confort y contemplación. El diseño incorpora balcones panorámicos y zonas exteriores con jacuzzi, planteados como elementos protagonistas para potenciar la experiencia de relajación y el disfrute del paisaje. A nivel material, se propuso la combinación de estructura metálica, cristal y madera, logrando una estética moderna y ligera que, a su vez, dialoga armónicamente con el contexto natural.",
-      subcategorias: {
-        interiores: {
-          imagenes: [
-            
-          ],
-          videos: [""]
-        },
-        exteriores: {
-          imagenes: [
-            "images/projects/exteriores/CA2.jpeg",
-            "images/projects/exteriores/CA1.png",
-          ],
-          videos: ["4h8Mpt9_Dxg"]
-        },
-        planos: {
-          imagenes: [
-            "images/projects/planos/CA1.png",
-            "images/projects/planos/CA2.png",
-            
-          ],
-          videos: [""]
-        }
-      }
-    },
+    
 
     {
       id: "casa1",
@@ -217,7 +219,7 @@ const proyectos = {
     {
       id: "efimera1",
       titulo: "OFICINA TEMPORAL EN CONTENEDOR",
-      anio: "2026",
+      anio: "2024",
       ubicacion: "Bucaramanga, Colombia",
       descripcion: "Proyecto de arquitectura efímera desarrollado a partir de un sistema modular en contenedor, concebido para la implementación de oficinas temporales en visitas de obra. Se propone un diseño funcional y adaptable, con una paleta de tonos neutros combinada con materiales resistentes y de fácil mantenimiento, garantizando durabilidad en entornos constructivos. La distribución interior prioriza la optimización del espacio, incorporando mobiliario versátil que responde a criterios de ergonomía, eficiencia operativa y confort, generando un ambiente práctico y adecuado para el desarrollo de actividades técnicas en campo.",
       subcategorias: {
@@ -253,7 +255,7 @@ const proyectos = {
     {
       id: "efimera2",
       titulo: "OFICINA TEMPORAL EN CONTENEDOR",
-      anio: "2026",
+      anio: "2024",
       ubicacion: "Bucaramanga, Colombia",
       descripcion: "Proyecto de arquitectura efímera desarrollado a partir de un sistema modular en contenedor, concebido para la implementación de oficinas temporales en visitas de obra. Se propone un diseño funcional y adaptable, con una paleta de tonos neutros combinada con materiales resistentes y de fácil mantenimiento, garantizando durabilidad en entornos constructivos. La distribución interior prioriza la optimización del espacio, incorporando mobiliario versátil que responde a criterios de ergonomía, eficiencia operativa y confort, generando un ambiente práctico y adecuado para el desarrollo de actividades técnicas en campo.",
       subcategorias: {
