@@ -18,42 +18,6 @@
 
 const proyectos = {
   moderna: [
-    {
-      id: "casa1",
-      titulo: "DISEÑO ARQUITECTONICO PORTERIA TOPOCORO",
-      anio: "2025",
-      ubicacion: "TOPOCORO SANTANDER, COLOMBIA",
-      descripcion: "Proyecto de diseño arquitectónico desarrollado para el acceso principal a una propiedad privada de cabañas de alquiler en Topocoro, orientado a la creación de una portería funcional para el control e ingreso vehicular. La propuesta integra de manera coherente el diseño exterior e interior, consolidando una imagen contemporánea mediante la combinación de materiales como concreto, madera y elementos metálicos.",
-      subcategorias: {
-        interiores: {
-          imagenes: [
-            "images/projects/interiores/img1.png",
-            "images/projects/interiores/img2.png",
-            "images/projects/interiores/img3.png",
-            "images/projects/interiores/img4.png",
-            "images/projects/interiores/img5.png",
-          ],
-          videos: ["FKqkW_0gnk4"]
-        },
-        exteriores: {
-          imagenes: [
-            "images/projects/exteriores/R1.png",
-            "images/projects/exteriores/R2.png",
-            "images/projects/exteriores/R3.png",
-            "images/projects/exteriores/R4.png",
-            "images/projects/exteriores/R5.png",
-          ],
-          videos: ["VU3ReeKocSQ"]
-        },
-        planos: {
-          imagenes: [
-            "images/projects/planos/A01.jpg",
-            "images/projects/planos/A02.jpg",
-          ],
-          videos: ["qznOvGRtgFE"]
-        }
-      }
-    },
     
     {
       id: "casa2",
@@ -90,7 +54,7 @@ const proyectos = {
       titulo: "CARWASH LAVAAUTOS",
       anio: "2026",
       ubicacion: "SAN CRISTOBAL, VENEZUELA",
-      descripcion: "Proyecto de diseño interior desarrollado para un apartamento en Floridablanca Santander. Se plantea una paleta de tonos neutros complementada con acabados en madera y superficies tipo mármol, logrando un ambiente, equilibrado y acogedor. El mobiliario fue cuidadosamente seleccionado para responder a criterios de ergonomía, funcionalidad y comfort.  El alcance del proyecto incluye la selección integral de mobiliario, definición de tonalidades para paredes y puertas, especificación de cerámicas y acabados, diseño de iluminación y el desarrollo de un modelo 3D con recorrido virtual, permitiendo visualizar el resultado final previo a su ejecución.",
+      descripcion: "Proyecto de diseño interior desarrollado para un carwash automotriz en la ciudad de San Cristóbal Venezuela. se trabaja en base a un concepto contemporáneo, enfocado en brindar una imagen innovadora y funcional. Se implementó una paleta de tonos neutros y contrastes que fortalecen la estética del espacio, complementada con acabados resistentes y de fácil mantenimiento. Como elemento principal del diseño, se incorporaron luminarias LED hexagonales, una tendencia actual en espacios automotrices.",
       subcategorias: {
         interiores: {
           imagenes: [
@@ -119,46 +83,13 @@ const proyectos = {
         }
       }
     },
-    {
-      id: "casa4",
-      titulo: "DISEÑO ARQUITECTONICO PORTERIA ARCA",
-      anio: "2025",
-      ubicacion: "BUCARAMANGA - SANTANDER, COLOMBIA",
-      descripcion: "Proyecto de diseño arquitectónico desarrollado para el acceso principal a una propiedad privada de cabañas de alquiler en Topocoro, orientado a la creación de una portería funcional para el control e ingreso vehicular. La propuesta integra de manera coherente el diseño exterior e interior, consolidando una imagen contemporánea mediante la combinación de materiales como concreto, madera y elementos metálicos.",
-      subcategorias: {
-        interiores: {
-          imagenes: [
-            
-          ],
-          videos: [""]
-        },
-        exteriores: {
-          imagenes: [
-            "images/projects/exteriores/AR1.png",
-            "images/projects/exteriores/AR2.png",
-            "images/projects/exteriores/AR3.png",
-            "images/projects/exteriores/AR4.png",
-            "images/projects/exteriores/AR5.png",
-            "images/projects/exteriores/AR6.png",
-            "images/projects/exteriores/AR7.png",
-            "images/projects/exteriores/AR8.png",
-          ],
-          videos: [""]
-        },
-        planos: {
-          imagenes: [
-            
-          ],
-          videos: [""]
-        }
-      }
-    },
+    
     {
       id: "casa5",
-      titulo: "Casas campestres",
+      titulo: "CABAÑA TIPO B",
       anio: "2025",
       ubicacion: "BUCARAMANGA - SANTANDER, COLOMBIA",
-      descripcion: "Proyecto de diseño arquitectónico desarrollado para el acceso principal a una propiedad privada de cabañas de alquiler en Topocoro, orientado a la creación de una portería funcional para el control e ingreso vehicular. La propuesta integra de manera coherente el diseño exterior e interior, consolidando una imagen contemporánea mediante la combinación de materiales como concreto, madera y elementos metálicos.",
+      descripcion: "Proyecto de diseño arquitectónico desarrollado para cabañas de alquiler Airbnb con vista al embalse de Topocoro, concebidas bajo un enfoque contemporáneo que busca fortalecer la conexión entre arquitectura, paisaje y experiencia del usuario. La propuesta integra espacios abiertos y visuales privilegiadas hacia el entorno natural, generando ambientes de descanso, confort y contemplación. El diseño incorpora balcones panorámicos y zonas exteriores con jacuzzi, planteados como elementos protagonistas para potenciar la experiencia de relajación y el disfrute del paisaje. A nivel material, se propuso la combinación de estructura metálica, cristal y madera, logrando una estética moderna y ligera que, a su vez, dialoga armónicamente con el contexto natural.",
       subcategorias: {
         interiores: {
           imagenes: [
@@ -174,11 +105,108 @@ const proyectos = {
             "images/projects/exteriores/C1.png",
             "images/projects/exteriores/C5.png",
           ],
+          videos: ["0z8gWQIWVo4"]
+        },
+        planos: {
+          imagenes: [
+            "images/projects/planos/C1.png",
+            "images/projects/planos/C2.png",
+            
+          ],
+          videos: [""]
+        }
+      }
+    },
+
+    {
+      id: "casa5",
+      titulo: "CABAÑA TIPO A",
+      anio: "2025",
+      ubicacion: "BUCARAMANGA - SANTANDER, COLOMBIA",
+      descripcion: "Proyecto de diseño arquitectónico desarrollado para cabañas de alquiler Airbnb con vista al embalse de Topocoro, concebidas bajo un enfoque contemporáneo que busca fortalecer la conexión entre arquitectura, paisaje y experiencia del usuario. La propuesta integra espacios abiertos y visuales privilegiadas hacia el entorno natural, generando ambientes de descanso, confort y contemplación. El diseño incorpora balcones panorámicos y zonas exteriores con jacuzzi, planteados como elementos protagonistas para potenciar la experiencia de relajación y el disfrute del paisaje. A nivel material, se propuso la combinación de estructura metálica, cristal y madera, logrando una estética moderna y ligera que, a su vez, dialoga armónicamente con el contexto natural.",
+      subcategorias: {
+        interiores: {
+          imagenes: [
+            
+          ],
+          videos: [""]
+        },
+        exteriores: {
+          imagenes: [
+            "images/projects/exteriores/CA2.jpeg",
+            "images/projects/exteriores/CA1.png",
+          ],
+          videos: ["4h8Mpt9_Dxg"]
+        },
+        planos: {
+          imagenes: [
+            "images/projects/planos/CA1.png",
+            "images/projects/planos/CA2.png",
+            
+          ],
+          videos: [""]
+        }
+      }
+    },
+
+    {
+      id: "casa1",
+      titulo: "DISEÑO ARQUITECTONICO PORTERIA TOPOCORO TIPO A",
+      anio: "2025",
+      ubicacion: "TOPOCORO SANTANDER, COLOMBIA",
+      descripcion: "Proyecto de diseño arquitectónico desarrollado para el acceso principal a una propiedad privada de cabañas de alquiler en Topocoro, orientado a la creación de una portería funcional para el control e ingreso vehicular. La propuesta integra de manera coherente el diseño exterior e interior, consolidando una imagen contemporánea mediante la combinación de materiales como concreto, madera y elementos metálicos.",
+      subcategorias: {
+        interiores: {
+          imagenes: [
+            "images/projects/interiores/img1.png",
+            "images/projects/interiores/img2.png",
+            "images/projects/interiores/img3.png",
+            "images/projects/interiores/img4.png",
+            "images/projects/interiores/img5.png",
+          ],
+          videos: ["FKqkW_0gnk4"]
+        },
+        exteriores: {
+          imagenes: [
+            "images/projects/exteriores/R1.png",
+            "images/projects/exteriores/R2.png",
+            "images/projects/exteriores/R3.png",
+          ],
           videos: [""]
         },
         planos: {
           imagenes: [
-            
+            "images/projects/planos/A01.jpg",
+            "images/projects/planos/A02.jpg",
+          ],
+          videos: [""]
+        }
+      }
+    },
+    {
+      id: "casa10",
+      titulo: "DISEÑO ARQUITECTONICO PORTERIA TOPOCORO TIPO B",
+      anio: "2025",
+      ubicacion: "TOPOCORO SANTANDER, COLOMBIA",
+      descripcion: "Proyecto de diseño arquitectónico desarrollado para el acceso principal a una propiedad privada de cabañas de alquiler en Topocoro, orientado a la creación de una portería funcional para el control e ingreso vehicular. La propuesta integra de manera coherente el diseño exterior e interior, consolidando una imagen contemporánea mediante la combinación de materiales como concreto, madera y elementos metálicos.",
+      subcategorias: {
+        interiores: {
+          imagenes: [
+
+          ],
+          videos: [""]
+        },
+        exteriores: {
+          imagenes: [
+            "images/projects/exteriores/R4.png",
+            "images/projects/exteriores/R5.png",
+            "images/projects/exteriores/R4.png",
+          ],
+          videos: ["VU3ReeKocSQ"]
+        },
+        planos: {
+          imagenes: [
+          
           ],
           videos: [""]
         }
